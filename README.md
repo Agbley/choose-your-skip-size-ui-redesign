@@ -1,8 +1,8 @@
 # Skip Selector Redesign – REMWaste Front-End Challenge
 
 ## ✨ Live Demo
-[CodeSandbox Link](#)  
-[GitHub Repo](#)
+[CodeSandbox Link](https://codesandbox.io/p/github/Agbley/choose-your-skip-size-ui-redesign/main?import=true)  
+[GitHub Repo](https://github.com/Agbley/choose-your-skip-size-ui-redesign)
 
 ## 📋 Description
 This project is a redesign of the "Choose Your Skip Size" page from [wewantwaste.co.uk](https://wewantwaste.co.uk). It dynamically loads skip data via API and presents options in a clean, modern UI.
@@ -22,4 +22,5 @@ This project is a redesign of the "Choose Your Skip Size" page from [wewantwaste
 ## 📦 How to Run
 ```bash
 npm install
+npm run build
 npm start
