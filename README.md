@@ -22,4 +22,5 @@ This project is a redesign of the "Choose Your Skip Size" page from [wewantwaste
 ## 📦 How to Run
 ```bash
 npm install
+npm run build
 npm start

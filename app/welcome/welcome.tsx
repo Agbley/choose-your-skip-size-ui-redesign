@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { toast } from "sonner";
+
 
 const formatPrice = (price, vat) => {
   return (price * (1 + vat / 100)).toFixed(2);
@@ -19,7 +21,7 @@ export default function ChooseSkipPage() {
   const selectedSkip = skips.find((skip) => skip.id === selectedSkipId);
 
   const handleContinue = () => {
-    alert(`You selected the ${selectedSkip.size} Yard Skip!`);
+    toast.success(`You selected the ${selectedSkip.size} Yard Skip!`);
   };
 
   return (
